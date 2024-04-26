@@ -1,0 +1,18 @@
+.container_navbar{
+    margin-bottom: 100px;
+    background-color: aqua;
+    padding: 20px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: none;
+    list-style: none;
+}
+ul.show{
+    display: flex;
+    flex-direction: column;
+}
